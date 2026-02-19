@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>5.1.1 GIT</Version>
+  <Author>Ned</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Internal" BPM="120"/>
+   <Universe Name="Universe 1" ID="0" Passthrough="True">
+    <Input Plugin="E1.31" UID="None" Line="1"/>
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: BG00RX5K)" Line="0">
+     <PluginParameters UniverseChannels="186"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>0</ID>
+   <Name>Rockwedge LED [1]</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>1</ID>
+   <Name>Rockwedge LED [2]</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>2</ID>
+   <Name>Rockwedge LED [3]</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>3</ID>
+   <Name>Rockwedge LED [4]</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>4</ID>
+   <Name>Rockwedge LED [5]</Name>
+   <Universe>0</Universe>
+   <Address>64</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>5</ID>
+   <Name>Rockwedge LED [6]</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>6</ID>
+   <Name>Rockwedge LED [7]</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>7</ID>
+   <Name>Rockwedge LED [8]</Name>
+   <Universe>0</Universe>
+   <Address>112</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>8</ID>
+   <Name>Rockwedge LED [9]</Name>
+   <Universe>0</Universe>
+   <Address>128</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>9</ID>
+   <Name>Rockwedge LED [10]</Name>
+   <Universe>0</Universe>
+   <Address>144</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>10</ID>
+   <Name>Rockwedge LED [11]</Name>
+   <Universe>0</Universe>
+   <Address>160</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Rockville</Manufacturer>
+   <Model>Rockwedge LED</Model>
+   <Mode>10 Channel</Mode>
+   <ID>11</ID>
+   <Name>Rockwedge LED [12]</Name>
+   <Universe>0</Universe>
+   <Address>176</Address>
+   <Channels>10</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="AllRed">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="01Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="02Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="03Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="04Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,6</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="05Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="06Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="07Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="08Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="09Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="10Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,255,3,0,4,0,5,6,6,0</FixtureVal>
+   <FixtureVal ID="5">0,6,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="11Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="12Red" Path="Red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="11">0,255,1,250,2,0,3,0,4,0,5,0,6,0,7,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="AllGreen">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,6,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="01Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="02Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="03Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="04Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="05Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="06Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="07Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,9</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="08Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="09Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="10Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="11Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="12Green" Path="Green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="11">0,255,1,0,2,255,3,0,4,0,5,0,6,0,7,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="AllBlue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="01Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="02Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="03Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="04Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="05Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="06Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="07Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="08Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="09Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="10Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="11Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="12Blue" Path="Blue">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="11">0,255,1,0,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="AllAmber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="01Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="02Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="03Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="04Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="05Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="06Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="07Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="08Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="09Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="10Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="11Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Scene" Name="12Amber" Path="Amber">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="11">0,255,1,0,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="52" Type="Scene" Name="AllBloodOrange">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
+  <Function ID="53" Type="Scene" Name="AllMagenta">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="AllTeal">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="AllYellow">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="AllBluePurple">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,127,2,0,3,255,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="AllRedPurple">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0,3,127,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="AllOff">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Chaser" Name="ColorPulse">
+   <Speed FadeIn="3000" FadeOut="3000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="3000" Hold="1000" FadeOut="3000">39</Step>
+   <Step Number="1" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="2" FadeIn="3000" Hold="1000" FadeOut="3000">26</Step>
+   <Step Number="3" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="4" FadeIn="3000" Hold="1000" FadeOut="3000">0</Step>
+   <Step Number="5" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="6" FadeIn="3000" Hold="1000" FadeOut="3000">13</Step>
+   <Step Number="7" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="8" FadeIn="3000" Hold="1000" FadeOut="3000">52</Step>
+   <Step Number="9" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="10" FadeIn="3000" Hold="1000" FadeOut="3000">56</Step>
+   <Step Number="11" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="12" FadeIn="3000" Hold="1000" FadeOut="3000">53</Step>
+   <Step Number="13" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="14" FadeIn="3000" Hold="1000" FadeOut="3000">54</Step>
+   <Step Number="15" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="16" FadeIn="3000" Hold="1000" FadeOut="3000">55</Step>
+   <Step Number="17" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+   <Step Number="18" FadeIn="3000" Hold="1000" FadeOut="3000">57</Step>
+   <Step Number="19" FadeIn="3000" Hold="1000" FadeOut="3000">58</Step>
+  </Function>
+  <Function ID="60" Type="Chaser" Name="NoDark">
+   <Speed FadeIn="3000" FadeOut="3000" Duration="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="3000" Hold="0" FadeOut="3000">39</Step>
+   <Step Number="1" FadeIn="3000" Hold="0" FadeOut="3000">52</Step>
+   <Step Number="2" FadeIn="3000" Hold="0" FadeOut="3000">0</Step>
+   <Step Number="3" FadeIn="3000" Hold="0" FadeOut="3000">57</Step>
+   <Step Number="4" FadeIn="3000" Hold="0" FadeOut="3000">53</Step>
+   <Step Number="5" FadeIn="3000" Hold="0" FadeOut="3000">56</Step>
+   <Step Number="6" FadeIn="3000" Hold="0" FadeOut="3000">26</Step>
+   <Step Number="7" FadeIn="3000" Hold="0" FadeOut="3000">54</Step>
+   <Step Number="8" FadeIn="3000" Hold="0" FadeOut="3000">13</Step>
+   <Step Number="9" FadeIn="3000" Hold="0" FadeOut="3000">55</Step>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0" POV="1"/>
+   <StageItem>0</StageItem>
+   <FxItem ID="0" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="1" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="2" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="3" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="4" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="5" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="6" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="7" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="8" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="9" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="10" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="11" XPos="0" YPos="0" ZPos="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="Page 1" ID="0">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 2" ID="1">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 3" ID="2">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 4" ID="3">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+ </VirtualConsole>
+</Workspace>
