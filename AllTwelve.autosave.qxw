@@ -2632,25 +2632,14 @@
    <Step Number="65" FadeIn="0" Hold="0" FadeOut="0">180</Step>
    <Step Number="66" FadeIn="0" Hold="0" FadeOut="0">181</Step>
    <Step Number="67" FadeIn="0" Hold="0" FadeOut="0">184</Step>
-   <Step Number="70" FadeIn="0" Hold="0" FadeOut="0">185</Step>
-   <Step Number="71" FadeIn="0" Hold="0" FadeOut="0">186</Step>
-   <Step Number="72" FadeIn="0" Hold="0" FadeOut="0">187</Step>
-   <Step Number="73" FadeIn="0" Hold="0" FadeOut="0">188</Step>
-   <Step Number="74" FadeIn="0" Hold="0" FadeOut="0">189</Step>
-   <Step Number="75" FadeIn="0" Hold="0" FadeOut="0">190</Step>
-   <Step Number="76" FadeIn="0" Hold="0" FadeOut="0">191</Step>
-   <Step Number="77" FadeIn="0" Hold="0" FadeOut="0">192</Step>
-  </Function>FadeIn="0" Hold="0" FadeOut="0">182</Step>
-   <Step Number="68" FadeIn="0" Hold="0" FadeOut="0">183</Step>
-   <Step Number="69" FadeIn="0" Hold="0" FadeOut="0">184</Step>
-   <Step Number="70" FadeIn="0" Hold="0" FadeOut="0">185</Step>
-   <Step Number="71" FadeIn="0" Hold="0" FadeOut="0">186</Step>
-   <Step Number="72" FadeIn="0" Hold="0" FadeOut="0">187</Step>
-   <Step Number="73" FadeIn="0" Hold="0" FadeOut="0">188</Step>
-   <Step Number="74" FadeIn="0" Hold="0" FadeOut="0">189</Step>
-   <Step Number="75" FadeIn="0" Hold="0" FadeOut="0">190</Step>
-   <Step Number="76" FadeIn="0" Hold="0" FadeOut="0">191</Step>
-   <Step Number="77" FadeIn="0" Hold="0" FadeOut="0">192</Step>
+   <Step Number="68" FadeIn="0" Hold="0" FadeOut="0">185</Step>
+   <Step Number="69" FadeIn="0" Hold="0" FadeOut="0">186</Step>
+   <Step Number="70" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+   <Step Number="71" FadeIn="0" Hold="0" FadeOut="0">188</Step>
+   <Step Number="72" FadeIn="0" Hold="0" FadeOut="0">189</Step>
+   <Step Number="73" FadeIn="0" Hold="0" FadeOut="0">190</Step>
+   <Step Number="74" FadeIn="0" Hold="0" FadeOut="0">191</Step>
+   <Step Number="75" FadeIn="0" Hold="0" FadeOut="0">192</Step>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
