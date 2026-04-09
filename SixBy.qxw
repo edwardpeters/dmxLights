@@ -9,7 +9,12 @@
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Internal" BPM="120"/>
-   <Universe Name="Universe 1" ID="0"/>
+   <Universe Name="Universe 1" ID="0" Passthrough="True">
+    <Input Plugin="E1.31" UID="192.168.12.232" Line="1"/>
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: BG00RX5K)" Line="0">
+     <PluginParameters UniverseChannels="61"/>
+    </Output>
+   </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
    <Universe Name="Universe 4" ID="3"/>
@@ -74,6 +79,82 @@
    <Address>55</Address>
    <Channels>6</Channels>
   </Fixture>
+  <Function ID="2" Type="Scene" Name="Rainbow 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,153,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="Rainbow 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,153,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="Rainbow 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,153,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Rainbow 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,153,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Rainbow 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,153,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Rainbow 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,153,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,255,2,255,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Rainbow 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,255,2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,255,3,0,4,0,5,0</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Chaser" Name="New Chaser 9">
+   <Speed FadeIn="3000" FadeOut="3000" Duration="6000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="3000" Hold="3000" FadeOut="3000">2</Step>
+   <Step Number="1" FadeIn="3000" Hold="3000" FadeOut="3000">3</Step>
+   <Step Number="2" FadeIn="3000" Hold="3000" FadeOut="3000">4</Step>
+   <Step Number="3" FadeIn="3000" Hold="3000" FadeOut="3000">5</Step>
+   <Step Number="4" FadeIn="3000" Hold="3000" FadeOut="3000">6</Step>
+   <Step Number="5" FadeIn="3000" Hold="3000" FadeOut="3000">7</Step>
+   <Step Number="6" FadeIn="3000" Hold="3000" FadeOut="3000">8</Step>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
